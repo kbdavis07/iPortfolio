@@ -22,14 +22,14 @@
         return;
       }
        */
-      
+
       thisForm.querySelector('.loading').classList.add('d-block');
       thisForm.querySelector('.error-message').classList.remove('d-block');
       thisForm.querySelector('.sent-message').classList.remove('d-block');
 
       let formData = new FormData( thisForm );
 
-      if ( recaptcha ) {
+      /* if ( recaptcha ) {
         if(typeof grecaptcha !== "undefined" ) {
           grecaptcha.ready(function() {
             try {
@@ -48,10 +48,10 @@
       } else {
         php_email_form_submit(thisForm, action, formData);
       }
-    });
+    }); */
   });
 
-  function php_email_form_submit(thisForm, action, formData) {
+  /* function php_email_form_submit(thisForm, action, formData) {
     fetch(action, {
       method: 'POST',
       body: formData,
@@ -76,7 +76,7 @@
     .catch((error) => {
       displayError(thisForm, error);
     });
-  }
+  } */
 
   function displayError(thisForm, error) {
     thisForm.querySelector('.loading').classList.remove('d-block');
