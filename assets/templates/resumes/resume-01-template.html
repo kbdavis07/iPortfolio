@@ -1,0 +1,95 @@
+
+<!-- Vendor CSS Files -->
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main CSS File -->
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<!-- template.html -->
+<div class="resume-container">
+  <h1>{{basics.name}}</h1>
+  <p>{{basics.label}}</p>
+  <p>{{basics.email}}</p>
+  <p>{{basics.phone}}</p>
+  <img src="{{basics.picture}}" alt="Profile Picture" />
+
+  <section class="work-experience">
+    <h2>Work Experience</h2>
+    {{#each work}}
+      <div class="work-item">
+        <h3>{{company}}</h3>
+        <p><strong>Position:</strong> {{position}}</p>
+        <p><strong>Website:</strong> <a href="{{website}}">{{website}}</a></p>
+        <p><strong>Start Date:</strong> {{startDate}}</p>
+        <p><strong>End Date:</strong> {{endDate}}</p>
+        <p><strong>Summary:</strong> {{summary}}</p>
+        <ul>
+          {{#each highlights}}
+            <li>{{this}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    {{/each}}
+  </section>
+
+  <section class="education">
+    <h2>Education</h2>
+    {{#each education}}
+      <div class="education-item">
+        <h3>{{institution}}</h3>
+        <p><strong>Area:</strong> {{area}}</p>
+        <p><strong>Study Type:</strong> {{studyType}}</p>
+        <p><strong>Start Date:</strong> {{startDate}}</p>
+        <p><strong>End Date:</strong> {{endDate}}</p>
+        <p><strong>GPA:</strong> {{gpa}}</p>
+        <ul>
+          {{#each courses}}
+            <li>{{this}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    {{/each}}
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      {{#each skills}}
+        <li>
+          <strong>{{name}}</strong>: {{level}}
+          <ul>
+            {{#each keywords}}
+              <li>{{this}}</li>
+            {{/each}}
+          </ul>
+        </li>
+      {{/each}}
+    </ul>
+  </section>
+
+  <section class="languages">
+    <h2>Languages</h2>
+    <ul>
+      {{#each languages}}
+        <li>{{language}}: {{fluency}}</li>
+      {{/each}}
+    </ul>
+  </section>
+
+  <section class="interests">
+    <h2>Interests</h2>
+    <ul>
+      {{#each interests}}
+        <li>{{name}}
+          <ul>
+            {{#each keywords}}
+              <li>{{this}}</li>
+            {{/each}}
+          </ul>
+        </li>
+      {{/each}}
+    </ul>
+  </section>
+</div>
+
+

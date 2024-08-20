@@ -1,0 +1,552 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+      "name": "Brian Davis",
+      "label": "Full Stack .NET C# Developer | Seeking Senior Software Engineer Opportunities | Microsoft Stack Enthusiast",
+      "image": "",
+      "email": "kbdavis0007@gmail.com",
+      "phone": "717.200.4936",
+      "url": "",
+      "summary": "With a solid background in cloud architecture and expertise in Azure DevOps, my tenure at GEICO has been marked by advancing microservices development and enhancing system reliability through innovative monitoring solutions. The transformation of monolithic systems into efficient, scalable microservices stands as a testament to our team's collaborative efforts in modernizing enterprise applications. \n\nAt JobNimbus, my role extended beyond engineering; by mentoring over ten engineers, we fostered a culture of knowledge sharing and continuous improvement. The successful migration to a new major CouchBase version and significant enhancements to the company's PDF service are highlights of our team's dedication to technological excellence and agile best practices. These experiences reflect my passion for leading-edge cloud solutions and a persistent drive towards operational excellence in software development. Our use of DataDog for monitoring and alerts showcases our commitment to proactive system management and seamless user experiences.",
+      "location": {
+        "countryCode": "US",
+        "address": "Fayetteville, Pennsylvania 17222, United States"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "kbdavis07",
+          "url": "https://www.linkedin.com/in/kbdavis07/"
+        },
+        {
+          "network": "Twitter",
+          "username": "kbdavis007",
+          "url": "https://twitter.com/kbdavis007"
+        },
+        {
+          "network": "Twitter",
+          "username": "kbdavis07",
+          "url": "https://twitter.com/kbdavis07"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "GEICO",
+        "position": "Senior .Net C# Software Engineer",
+        "startDate": "2023-01-31",
+        "endDate": "",
+        "highlights": [],
+        "summary": "Technical lead for Managed File Transfer (MFT) Team responsible in\ncreating an in-house solution to replace 3rd party software's\n● Onboarded and mentored 5+ engineers\n● Provided training sessions to entire team\n● Provided customer support\n● Troubleshooting of network and servers\n● RSA and Open PGP Encryption\n● File Transfer Methods: SFTP,Azure Blob, Azure File Share, SMB 3.0",
+        "url": "https://www.linkedin.com/company/geico/",
+        "location": "Chevy Chase, Maryland, United States"
+      },
+      {
+        "name": "JobNimbus",
+        "position": "Senior Software Engineer",
+        "startDate": "2020-10-31",
+        "endDate": "2022-11-30",
+        "highlights": [],
+        "summary": "• Onboarded and mentored • 10+ engineers\n\n• Developed microservices, including a SSO service, using best\npractices\n\n• Migrated to new major CouchBase version\n\n• Made significant improvements on the company's PDF service\n\n• Followed agile best practices\n\n• Created DataDog monitoring alerts to send out alerts to the user's\nemail and an alert channels on Slack\n\n• Used DataDog logs to help monitor system and debug issues\ndiscovered\n\n• Used Jira ticketing system to help manage tasks that need to be\ncompleted",
+        "url": "https://www.linkedin.com/company/jobnimbus/",
+        "location": "Lehi, Utah, United States"
+      },
+      {
+        "name": "Nubitz",
+        "position": "Cloud Architect",
+        "startDate": "2019-10-31",
+        "endDate": "2020-10-31",
+        "highlights": [],
+        "summary": "JobNimbus (contract)\n\n• Broke down and migrated over an monolithic .Net 4.5 Web Forms with WCF web application into three different parts UI, API, and Background Service workers that used RabbitMQ. \n\n• Created  a new self contained organizational structure for features within the monolithic App class library that both the API and Worker projects shared, using the screaming architecture design pattern in preparation for eventually moving features into their own microservices at a later time in the future. \n\niGrad (contract)\n\n• Helped with creating a .Net core API for their educational system backend. \n\n• Went over the pros and cons of various approaches in their system design and the best path to reach their end goals.",
+        "url": "https://www.linkedin.com/company/nubitz/",
+        "location": "Louisiana, United States"
+      },
+      {
+        "name": "Persuasive Media",
+        "position": "Software Architect",
+        "startDate": "2018-02-28",
+        "endDate": "2019-09-30",
+        "highlights": [],
+        "summary": "•Migrated website  from a 3rd party hosting provider to Azure. \n\n•Created a brand new Azure DevOps pipeline to have Continuous Integration (CI) with Continuous Deployments (CD) to Azure web sites.\n\n•Helped train team members on how to use the new pipeline and Azure platform and how to work with Azure DevOps in general.\n\n•As a senior Asp.net developer made sure that the web app overall is working correctly and helped in refactoring the web application to run better and updated areas that were outdated.\n\n•Help in removing duplicate calls to the database, and rewriting some of the logic so that the web pages load faster. Also migrated the existing code from the controllers to a new Service layer to reduce the amount of code in the controllers and to help improve the web application performance.\n\n•Created a background Sync service that uses Azure Webjobs to sync content between two different websites that need to share data that they have in common, runs on a nightly basis.",
+        "url": "https://www.linkedin.com/company/persuasive-media/",
+        "location": "Houston, Texas, United States"
+      },
+      {
+        "name": "Casualty ITC ★ P&C Insurance IT Consulting",
+        "position": "Senior Full Stack Asp.Net Web Application Developer",
+        "startDate": "2017-10-31",
+        "endDate": "2018-10-31",
+        "highlights": [],
+        "summary": "• Helped with setting up the Azure Environment to use Azure Web sites and Azure SQL database.\n• Set up Team Services for the team to use for Project management and code repository.\n• Helped in training team members on how to use Team Services.\n• Converted web application from Web forms to use MVC design pattern",
+        "url": "https://www.linkedin.com/company/casualtyitc/"
+      },
+      {
+        "name": "Tefluk",
+        "position": "Web Application Developer",
+        "startDate": "2016-06-30",
+        "endDate": "2018-04-30",
+        "highlights": [],
+        "summary": "• Migrated a MVC C# NET 4.5 based website app to a new Azure subscription.\n• Liaise with the Clients previous web development company for code handover.\n• Migrated from Azure Cloud \"Classic\" to Azure Web \"App service\".\n• Divided the monolithic website into smaller websites (Sub-domains) based on specific functions to give the application better performance and scalability. \n• Fix many different issues with the website.",
+        "url": "",
+        "location": "Remote"
+      },
+      {
+        "name": "Gather Online (Pty) Ltd",
+        "position": "QA Tester",
+        "startDate": "2016-06-30",
+        "endDate": "2017-05-31",
+        "highlights": [],
+        "summary": "Tested Client's website and log defects that were found.",
+        "url": "https://www.linkedin.com/company/gather-online-pty-ltd/",
+        "location": "Remote"
+      },
+      {
+        "name": "Futuresmine",
+        "position": "System Administrator",
+        "startDate": "2016-08-31",
+        "endDate": "2016-09-30",
+        "highlights": [],
+        "summary": "1. Created a mail server on a VM for the client.\n2. Set up DNS records for the new mail server.",
+        "url": "",
+        "location": "Remote"
+      },
+      {
+        "name": "Primary Goals",
+        "position": "Azure Migration and Web Application Developer",
+        "startDate": "2016-06-30",
+        "endDate": "2016-07-31",
+        "highlights": [],
+        "summary": "1. Migrated client  ASP.Net/SQL/DevExpress app that was hosted on a VM to Azure PaaS (App Service) from another web host.\n\n2. Made adjustments to the application to have it working on Azure properly.\n\n3. Created repository in Visual Studio Team Services.\n\n4. Set-up a continuous build process in Visual Studio Team Services to automatically build on new check-in of code then deploy that new build to the Azure Web application.\n\n5. Migrated SQL Server 2012 to Azure SQL Server.",
+        "url": "https://www.linkedin.com/company/primary-goals/",
+        "location": "Remote"
+      },
+      {
+        "name": "Bergström Development Consulting HB",
+        "position": "Web Application Developer",
+        "startDate": "2014-05-31",
+        "endDate": "2014-12-31",
+        "highlights": [],
+        "summary": "Provided customization and functionality for Client's BlogEngine.NET based Website.",
+        "url": "",
+        "location": "Remote"
+      },
+      {
+        "name": "Mell & Company",
+        "position": "Web Application Developer",
+        "startDate": "2013-04-30",
+        "endDate": "2013-12-31",
+        "highlights": [],
+        "summary": "1. Redesign the client's website and incorporate various plugins\n\n2. Improved the Site's Theme.",
+        "url": "",
+        "location": "Remote"
+      },
+      {
+        "name": "Wynquest Technical Solutions Ltd.",
+        "position": "BlogEngine Migration Expert",
+        "startDate": "2012-01-31",
+        "endDate": "2012-07-31",
+        "highlights": [],
+        "summary": "1. Setup and install BlogEngine.net 2.5 \n\n2.  Moved/Migrated our existing client's website files based on version 1.6 to the new version 2.5 installation \n\n3. Added Custom SEO function to website",
+        "url": "https://www.linkedin.com/company/valleytec-digital-solutions-ltd/",
+        "location": "Remote"
+      },
+      {
+        "name": "Demand Studios",
+        "position": "TITLE QA,",
+        "startDate": "2009-10-31",
+        "endDate": "2010-10-31",
+        "highlights": [],
+        "summary": "Decide which titles can be made into Demand Studios articles or videos as is, which titles could be up to Demand Studios standards with a few adjustments, and which     titles  cannot be salvaged.\n    The most important decision in Titling, as it is the first step in the content production process.",
+        "url": "https://www.linkedin.com/company/demand-studios/",
+        "location": "Remote"
+      },
+      {
+        "name": "Leapforce",
+        "position": "Search Engine Evaluator (Independent Contractor",
+        "startDate": "2009-09-30",
+        "endDate": "2010-10-31",
+        "highlights": [],
+        "summary": "Evaluate quality of search engine results working on many different types of rating projects.  \n\nWeb research, analysis.\nProvide feedback on search engine results by measuring the relevance and usefulness of web pages in correlation to predefined queries, by providing comparative analysis of sets of search engine results and various other techniques.",
+        "url": ""
+      },
+      {
+        "name": "ICC/Decision Services",
+        "position": "Mystery Shopper",
+        "startDate": "2007-12-31",
+        "endDate": "2009-12-31",
+        "highlights": [],
+        "url": "https://www.linkedin.com/company/iccdecision-services/"
+      },
+      {
+        "name": "National Security Agency",
+        "position": "Global system monitoring operator",
+        "startDate": "2004-07-31",
+        "endDate": "2005-10-31",
+        "highlights": [],
+        "summary": "Global system monitoring operator\n24-Hours Operations Center, NSA, July 9, 2004 - Oct 20, 2004\n\n    * Performed multiple duties as Global system monitoring operator\n    * Responsible for several systems providing real-time collection and data forwarding against worldwide targets\n    * Provided troubleshooting support for several intelligence partners on various systems.\n    * Performed multiple duties using UNIX and NT base computer systems in-house and via remote access to deployed systems.\n    * Assisted in training multiple operators in various tasks to perform mission duties.\n    * Performed duties associated with Satellite Communications equipment.",
+        "url": "https://www.linkedin.com/company/national-security-agency/"
+      },
+      {
+        "name": "National Security Agency",
+        "position": "Signals Intelligence (SIGINT) analyst, and Webmaster",
+        "startDate": "2001-09-30",
+        "endDate": "2004-04-30",
+        "highlights": [],
+        "summary": "Performed required duties as Signals Intelligence (SIGINT) analyst\nAssisted in the production of daily SIGINT summary reports\nProduced Communications Intelligence (COMINT)\nAssisted in the development and maintenance of Regional Technical Control and Analysis Element (RTCAE) web pages\nCreated scripts for UNIX systems\nPerformed various duties as part of the warfighter support operations providing threat warning to warfighters.",
+        "url": "https://www.linkedin.com/company/national-security-agency/"
+      },
+      {
+        "name": "National Security Agency",
+        "position": "Communications Security (COMSEC) operator",
+        "startDate": "1999-04-30",
+        "endDate": "2001-09-30",
+        "highlights": [],
+        "summary": "Performed multiple duties as a Communications Security (COMSEC) operator\nWorked associated equipment associated with COMSEC\nWorking knowledge of UNIX\nPerformed various duties associated with data locational tasks\nProvided digital and analog analysis support to multiple customers\nProvided real-time reporting of COMSEC monitoring\nParticipated with Joint COMSEC Monitoring Activity (JCMA) on monitoring exercises\nPerformed duties associated with Satellite Communications equipment.\nPerformed COMSEC monitoring tasks on various types of communications.",
+        "url": "https://www.linkedin.com/company/national-security-agency/",
+        "location": "Hawaii"
+      },
+      {
+        "name": "HEB",
+        "position": "Grocery Sacker",
+        "startDate": "1999-01-31",
+        "endDate": "1999-06-30",
+        "highlights": [],
+        "summary": "Assisted customers in carrying purchased merchandise to an individual's vehicle.\nProvided friendly and courteous service to customers.\nPack merchandise from the checkout counter into the bags in an orderly manner, lift bags of large merchandise onto carrying carts, push carts from store to customer's vehicle and unload the merchandise into the customer's vehicle.  \n\nAlso assisted in various other activities as directed in the general operation of the store, as needed, including price check, general cleaning and custodial duties and other specific activities as directed by management.",
+        "url": "https://www.linkedin.com/company/heb/",
+        "location": "Livingston,Texas"
+      }
+    ],
+    "volunteer": [],
+    "education": [
+      {
+        "institution": "Technical Training Center, Corry Station Pensacola, FL",
+        "area": "Communications Signals Collection And Processing Course (450)",
+        "studyType": "",
+        "startDate": "1999-12-31",
+        "endDate": "2000-12-31",
+        "score": "",
+        "courses": []
+      },
+      {
+        "institution": "National Cryptologic School",
+        "area": "",
+        "studyType": "",
+        "startDate": "2000-12-31",
+        "endDate": "2005-12-31",
+        "score": "",
+        "courses": []
+      },
+      {
+        "institution": "Livingston,Tx High School",
+        "area": "",
+        "studyType": "",
+        "startDate": "1995-12-31",
+        "endDate": "1999-12-31",
+        "score": "",
+        "courses": []
+      },
+      {
+        "institution": "American Sentinel University",
+        "area": "Information Systems",
+        "studyType": "Bachelor of Science (BS)",
+        "startDate": "2012-12-31",
+        "endDate": "2015-12-31",
+        "score": "3.7",
+        "courses": []
+      }
+    ],
+    "awards": [],
+    "certificates": [],
+    "publications": [],
+    "skills": [
+      {
+        "name": "Azure DevOps",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Azure webjobs",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Dapper ORM",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Azure app",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Project Planning",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Web Development",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "ASP.NET Core",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Microsoft SQL Server",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Management",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Troubleshooting",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "ASP.NET",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "XML",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Powershell",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "CSS3",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "HTML5",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "HTML 5",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Visual Studio",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Cascading Style Sheets (CSS)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Shared Hosting",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Transact-SQL (T-SQL)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "background service",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "ASP.NET Razor",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Object-Oriented Programming (OOP)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "HTML",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "LogRocket",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Datadog",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "CSS",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Web Developer",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "RabbitMQ",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Elasticsearch",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "C#",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "ASP.NET MVC",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Databases",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Azure Functions",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Entity Framework",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Web Design",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Microsoft Azure",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "SEO",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Software Documentation",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Training",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "SQL",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": ".NET Framework",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "SQL Azure",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "JavaScript",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Couchbase",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Analysis",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Web Applications",
+        "level": "",
+        "keywords": []
+      }
+    ],
+    "languages": [
+      {
+        "fluency": "Native Speaker",
+        "language": "English"
+      }
+    ],
+    "interests": [],
+    "references": [
+      {
+        "name": "Niky Mangkudihardjo",
+        "reference": "Brian is a colleague and mentor who loves to share knowledge with team members. His expertise and knowledge in C# and asp.net are unquestionable. Brian often takes the time to share knowledge and contribute in his field of expertise with team members."
+      },
+      {
+        "name": "Juan Lizarazo",
+        "reference": "I had the pleasure of working with Brian at Jobnimbus for over two years! He was of great help in discovering and fixing root causes, improving our logging and alerts, and finding flaws in the solutions we were implementing.\n\nI lost count of how often Brian helped me discover issues before customers brought them up. He also helped to bring to market countless features in his time at Jobnimbus!\n\nBrian will be a great addition to your engineering department."
+      },
+      {
+        "name": "Jarom Plewe",
+        "reference": "Brian is one of the most dependable and knowledgeable people I’ve worked with. He is an incredible team player and will drop anything to help a team member in need.  Brian is they type of person you can throw on any task and if he doesn’t know how to do it, he will figure it out on his own. I hope to have the opportunity to work with him again soon."
+      },
+      {
+        "name": "Ryan Quackenbush",
+        "reference": "Brian is an excellent developer. He is the first to jump on a problem and isn’t afraid to dive deep to find a solution. On top of that he’s easy to work with and takes feedback extremely well. A great person to add to your team!"
+      },
+      {
+        "name": "Nate Graham",
+        "reference": "I worked with Brian at JobNimbus, and he has an uncanny ability to dive deep into diagnosing and fixing issues. Brian was instrumental in getting our team's server monitoring and alerts dialed in so we could actually sleep at night. Brian is always the first to jump in and help where ever he can. I've never seen him stressed out or frustrated; he is consistent, friendly, helpful, and kind to everyone he works with."
+      },
+      {
+        "name": "Tai Olson",
+        "reference": "Brian is someone I truly hope to get to work with again in the future. The determination to fully map out a problem before tackling it, teaching team members about all the intricacies of various tools in the tech stack, or simply by being the first to jump in and help out when there is a need. Brian embodies all of these things, and then some! "
+      },
+      {
+        "name": "Kristopher Powell",
+        "reference": "Working with Brian has been fantastic -- he's always so willing to step up and help out wherever he's needed. Couple that with his expertise and natural friendliness and you've got something special!\n\nI've worked on and off with him over the course of the last year (and much more closely over the last few months), and I can say that I don't know anybody who is as good as Brian when it comes to digging deep and troubleshooting data, problems, and coming up with solutions.\n\nPlus, not only does he excel at investigating, he also loves to share his knowledge with everybody around him and help them level up! I have personally learned a great deal during my time working with him.\n\nEvery team needs a Brian."
+      },
+      {
+        "name": "Travis Chapman",
+        "reference": "Brian cares deeply. He is deeply concerned with building and maintaining a robust system to provide value to customers."
+      },
+      {
+        "name": "Rishi Kapadia",
+        "reference": "Brian is a really good developer, understands the existing system well, and suggests good changes. His debugging skill is also really good and never hesitate to debug and troubleshoot the complex issue. I enjoy working with him. He is very dedicated and hard-working."
+      },
+      {
+        "name": "Steve Shepherd",
+        "reference": "I have worked with Brian for almost two years at JobNimbus. He is a phenomenal engineer and one of the best debuggers and tooling experts in the business. Brian also has a lot of amazing ideas for improving scaling of architecture and infrastructure.\n\nAt JobNimbus, he was our Datadog Guru. He is a master at finding the right data and pinpointing the source of performance issues and API problems. Brian provided us meaningful monitors and alerts, as well as information that both helped us resolve incidents faster and enabled us to react to them more quickly. His thorough analysis and sharp intuition were key to resolving many issues in our CI/CD and infrastructure.\n\nSome of Brian's other top skills include .NET, Couchbase, AWS, and other tools like RabbitMQ.\n\nWhat I love most about Brian is how team-committed and caring he is. He is a good mentor and often comes to you out of the blue with new solutions that apply to the problems you've talked with him about. He will seek out knowledge and thoughtfully and eagerly share it. He helped me learn Datadog and taught me a lot about our architecture and system. I'm better at my job because of him.\n\nYou could not have a better data guy than Brian on your team, and I heartily recommend him if you are looking for a talented software engineer and all-around great person!"
+      }
+    ],
+    "projects": [],
+    "meta": {
+      "version": "v1.0.0",
+      "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+    }
+  }
