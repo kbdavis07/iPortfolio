@@ -1,57 +1,62 @@
-class JsonResumeSchemaComponent extends HTMLElement {
+class JsonSchemaComponent extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
+    this.jsonData = {};
+    this.template = ''; // Initialize an empty string for the template
   }
 
-  async connectedCallback() {
-    const jsonFile = this.getAttribute('data-json');
-    const templateFile = this.getAttribute('data-template');
-    const [json, template] = await Promise.all([this.loadJson(jsonFile), this.loadTemplate(templateFile)]);
+  connectedCallback() {
+    const jsonUrl = this.getAttribute('json-url');
+    const templateUrl = this.getAttribute('template-url'); // New attribute for the template
 
-    console.info(jsonFile);
-
-    this.render(json, template);
-    
+    if (jsonUrl && templateUrl) {
+      this.loadTemplate(templateUrl)
+        .then(() => this.loadJson(jsonUrl));
+    }
   }
 
-  async loadJson(file) {
-    const response = await fetch(file);
-    return await response.json();
+  // Load the external HTML template
+  async loadTemplate(url) {
+    try {
+      const response = await fetch(url);
+      this.template = await response.text();
+    } catch (error) {
+      console.error('Failed to load template:', error);
+    }
   }
 
-  async loadTemplate(file) {
-    const response = await fetch(file);
-    return await response.text();
+  // Load JSON from a provided URL
+  async loadJson(url) {
+    try {
+      const response = await fetch(url);
+      this.jsonData = await response.json();
+      this.render();
+    } catch (error) {
+      console.error('Failed to load JSON:', error);
+    }
   }
 
-  render(json, template) {
-    let html = template;
+  // Render the content based on the loaded template and JSON data
+  render() {
+    if (!this.template || !this.jsonData || Object.keys(this.jsonData).length === 0) {
+      this.shadowRoot.innerHTML = `<p>No template or JSON data loaded</p>`;
+      return;
+    }
 
-    html = this.replacePlaceholders(html, json);
-    this.shadowRoot.innerHTML = html;
+    let content = this.template;
+
+    // Replace placeholders with actual data
+    content = content.replace(/{{(.*?)}}/g, (match, path) => this.getValue(path.trim()));
+
+    this.shadowRoot.innerHTML = content;
   }
 
-  replacePlaceholders(template, data) {
-    const regex = /{{\s*(.*?)\s*}}/g;
-
-    return template.replace(regex, (match, key) => {
-      const keys = key.split('.');
-      let value = data;
-
-      for (const k of keys) {
-        if (Array.isArray(value)) {
-          return value.map(v => this.replacePlaceholders(match, v)).join('');
-        } else {
-          value = value[k];
-        }
-
-        if (value === undefined) return '';
-      }
-
-      return value;
-    });
+  // Method to get a value from the JSON data using a dot notation string
+  getValue(path) {
+    return path.split('.').reduce((acc, part) => acc && acc[part], this.jsonData) || '';
   }
 }
 
-customElements.define('json-resume-schema', JsonResumeSchemaComponent);
+// Define the custom element
+customElements.define('json-schema-component', JsonSchemaComponent);
