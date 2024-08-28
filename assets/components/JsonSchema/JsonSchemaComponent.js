@@ -46,8 +46,11 @@ class JsonSchemaComponent extends HTMLElement {
 
     let content = this.template;
 
-    // Replace placeholders with actual data
-    content = content.replace(/{{(.*?)}}/g, (match, path) => this.getValue(path.trim()));
+    // Replace placeholders with actual values from JSON data
+    content = content.replace(/{{(.*?)}}/g, (match, p1) => {
+      const value = this.getValue(p1.trim());
+      return value !== undefined ? value : match;
+    });
 
     this.shadowRoot.innerHTML = content;
   }

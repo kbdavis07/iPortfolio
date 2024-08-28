@@ -1,0 +1,47 @@
+
+    <style>
+      /* Add some basic styling */
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+      }
+      .section {
+        margin-bottom: 20px;
+      }
+      .section h2 {
+        border-bottom: 2px solid #000;
+        padding-bottom: 5px;
+      }
+      .work-item {
+        margin-bottom: 15px;
+      }
+      .work-item h3 {
+        margin: 0;
+      }
+      .work-item p {
+        margin: 5px 0;
+      }
+    </style>
+  
+    <div class="section basics">
+      <h2>Basics</h2>
+      <p><strong>Name:</strong> {{basics.name}}</p>
+      <p><strong>Label:</strong> {{basics.label}}</p>
+      <p><strong>Email:</strong> {{basics.email}}</p>
+      <p><strong>Phone:</strong> {{basics.phone}}</p>
+      <p><strong>Summary:</strong> {{basics.summary}}</p>
+      <p><strong>Location:</strong> {{basics.location.address}}</p>
+    </div>
+  
+    <div class="section profiles">
+      <h2>Profiles</h2>
+      <ul>
+        {{profiles}}
+      </ul>
+    </div>
+  
+    <div class="section work">
+      <h2>Work Experience</h2>
+      {{work}}
+    </div>
+  
